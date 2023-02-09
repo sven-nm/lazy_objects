@@ -1,10 +1,30 @@
+# ==============================================================================================================
+#                   PROJECT RELATED FILES
+# ==============================================================================================================
+
+# Others
+workbench*.py
+*.pyc
+
+
+# ==============================================================================================================
+#                   GITIGNORE GLOBAL TEMPLATE
+# ==============================================================================================================
+
 # Byte-compiled / optimized / DLL files
-__pycache__/
+**/__pycache__/
+__pycache__
 *.py[cod]
 *$py.class
 
 # C extensions
 *.so
+
+# Drive
+.tmp*
+
+# Thumbnails
+._*
 
 # Distribution / packaging
 .Python
@@ -25,7 +45,6 @@ share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-MANIFEST
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -101,6 +120,20 @@ celerybeat.pid
 # SageMath parsed files
 *.sage.py
 
+# OSX
+**/.DS_Store
+.DS_Store
+*.swp
+*~.nib
+icon?
+
+**/Icon?
+**/**/icon?
+
+
+# Pycharm
+.idea
+
 # Environments
 .env
 .venv
@@ -127,3 +160,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
